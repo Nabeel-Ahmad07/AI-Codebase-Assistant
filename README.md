@@ -38,3 +38,13 @@ Once indexed, user questions route through a state-driven pipeline compiled with
 * **Markdown Parser:** Lightweight regex token replacement helper
 
 ---
+
+## Setup
+
+1. Create a virtual environment `python -m venv venv`.
+2. Install all the dependecies from requirements.txt `pip install -r requirements.txt`.
+3. Add your Gemini API key in core/graph.py.
+4. Run the FastAPI Server `uvicorn app:main --reload`.
+5. Make the Frontend Server live.
+6. Input any GitHub repository and get its codebase assistance through LLM.
+
